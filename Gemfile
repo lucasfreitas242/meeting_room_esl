@@ -24,7 +24,11 @@ gem 'jbuilder', '~> 2.7'
 
 # GEMs adicionadas ao projeto:
 
-gem "twitter-bootstrap-rails"
+gem 'twitter-bootstrap-rails'
+
+gem 'bootstrap-sass',               '3.4.1'
+
+
 
 gem "simple_calendar", "~> 2.4"
 
