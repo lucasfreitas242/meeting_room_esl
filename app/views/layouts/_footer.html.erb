@@ -1,6 +1,11 @@
 <footer>
   <small>
+  <% if !user_signed_in? %>
     <%= link_to 'Reserva de Salas. Teste N2 ESL.', root_path %>
+    <% else %>
+    <%= link_to 'Reserva de Salas. Teste N2 ESL.', current_user %>
+    <% end %>
+    
   </small>
 
   <nav>

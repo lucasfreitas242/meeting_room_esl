@@ -28,8 +28,7 @@ gem 'twitter-bootstrap-rails'
 
 gem 'bootstrap-sass',               '3.4.1'
 
-
-
+gem 'jquery-rails'
 
 gem "simple_calendar", "~> 2.4"
 
