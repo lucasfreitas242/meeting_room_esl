@@ -18,3 +18,7 @@ pt-BR:
         too_long: 'muito grande. Máximo de %{count} caracteres'
         too_short: 'muito curta. Mínimo de %{count} caracteres'
         
+  simple_calendar:
+    previous: "Mês Anterior"
+    next: "Próximo Mês"
+    week: "Semana"  
