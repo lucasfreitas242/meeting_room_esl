@@ -30,7 +30,9 @@ gem 'bootstrap-sass',               '3.4.1'
 
 gem 'jquery-rails'
 
+gem 'fullcalendar-rails'
 
+gem 'momentjs-rails'
 
 
 # Use Active Storage variant

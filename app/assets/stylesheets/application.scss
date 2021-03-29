@@ -15,10 +15,14 @@
  */
 
 
- @import "simple_calendar";
  @import "bootstrap";
  @import "bootstrap-sprockets";
  @import "static_pages";
+ 
+ @import '@fullcalendar/core/main.css';
+ @import '@fullcalendar/daygrid/main.css';
+ @import '@fullcalendar/list/main.css';
+
 
  $gray-medium-light: #EAEAEA;
 

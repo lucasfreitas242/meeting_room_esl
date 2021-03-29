@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-    before_action :require_logged_in_user, only: [:edit, :update]
+    before_action :require_logged_in_user, only: [:edit, :update, :destroy]
 
     def new
         @user = User.new
@@ -23,7 +23,7 @@ class UsersController < ApplicationController
     def update
         if current_user.update(user_params)
             flash[:success] = "Dados atualizados com sucesso!"
-            redirect_to root_url
+            redirect_to user_path(current_user)
         else
             render 'edit'
         end
