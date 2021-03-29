@@ -2,32 +2,3 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.simple-calendar {
-
-    .prev-month {
-        font-size: large;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
-    .next-month {
-        font-size: large;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-
-    .today {
-        color: dodgerblue;
-    }
-
-    .past {
-        color: crimson;
-    }
-
-    .future {
-        color: green;
-    }
-
-    .current-month {
-        font-size: large;
-    }
-
-}
